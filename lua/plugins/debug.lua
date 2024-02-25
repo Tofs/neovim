@@ -7,7 +7,7 @@ return {
     },
     config = function()
       require("dapui").setup()
-      require('dap-python').setup('./debugpy/bin/python')
+      require('dap-python').setup('./.debugpy/scripts/python')
 
       local dap, dapui = require("dap"), require("dapui")
 
